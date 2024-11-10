@@ -1,0 +1,31 @@
+<div id="card">
+    <div id="inside">
+        <header>
+            <div class="left">
+                <div class="name">{{recipe.name}}</div>
+            </div>
+            <div class="right">
+                 <div id="tempP">{{recipe.tempP}} min</div>
+                 <img class="fast icon" src="iconCook.png">
+            </div>
+        </header>
+        <figure id="art">
+            <img src="japRamen.jpg" alt="Ramen japonais">
+            <figcaption>{{recipe.figcaption}} Recipe Collection </figcaption>
+        </figure>
+        <div id="specificities">
+            <div class="specificity">
+                <div class="main">
+                    <div class="origine">
+                        <img class="icon pays" src="japan.png">
+                    </div>
+                    <div class="nameCountry">{{recipe.nameCountry}}</div>
+                    <div class="tempC">{{recipe.tempC}}</div>
+                </div>
+                <div class="description">
+                    {{recipe.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
