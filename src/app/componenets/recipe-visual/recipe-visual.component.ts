@@ -9,7 +9,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './recipe-visual.component.css'
 })
 export class RecipeVisualComponent {
-
   @Input({
     alias : 'myRecipe',
     required : true

@@ -1,4 +1,12 @@
+<app-search-bar [(search)]="search"></app-search-bar>
+<h1 id="titleHeader">Mes voyages culinaires à travers le globe ... ; )</h1>
 <div id="card-list">
-    <app-recipe-visual [myRecipe]="recipe1"/>
-    <app-recipe-visual [myRecipe]="recipe1"/>
+    <app-recipe-visual *ngFor="let recipe of filteredRecipes()" [myRecipe]="recipe"/>
 </div>
+<div *ngIf="filteredRecipes().length == 0; then notFound else found" class="center"></div>
+<ng-template #notFound>
+    <div class="center">Aucune recette trouvé ! </div>
+</ng-template>
+<ng-template #found>
+    <div class="center">{{filteredRecipes().length}} recettes de trouvé !</div>
+</ng-template>

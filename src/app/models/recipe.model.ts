@@ -1,9 +1,9 @@
 export class Recipe {
     name: string = 'Ramen';
-    tempP:number = 45;
-    figcaption: string = 'N°001';
+    picture: string = 'japRamen.png';
 
     nameCountry: string = 'Japon';
-    tempC:number = 20;
+    icon: string = 'japan.png';
+    note:number = 9;
     description:string = 'une description longue pour tester la carte'
 }

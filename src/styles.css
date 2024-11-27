@@ -3,7 +3,7 @@ body, html{
     height: 100%;
     background: linear-gradient(
         545deg,
-        rgb(252, 228, 252),
-        rgb(218, 228, 255)
+        #e8eb899a,
+        rgb(130, 190, 125)
     )
 }

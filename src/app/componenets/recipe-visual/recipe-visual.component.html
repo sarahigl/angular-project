@@ -5,22 +5,20 @@
                 <div class="name">{{recipe.name}}</div>
             </div>
             <div class="right">
-                 <div id="tempP">{{recipe.tempP}} min</div>
                  <img class="fast icon" src="iconCook.png">
             </div>
         </header>
         <figure id="art">
-            <img src="japRamen.jpg" alt="Ramen japonais">
-            <figcaption>{{recipe.figcaption}} Recipe Collection </figcaption>
+            <img src={{recipe.picture}} alt="Ramen japonais">
         </figure>
         <div id="specificities">
             <div class="specificity">
                 <div class="main">
                     <div class="origine">
-                        <img class="icon pays" src="japan.png">
+                        <img class="icon pays" src={{recipe.icon}}>
                     </div>
                     <div class="nameCountry">{{recipe.nameCountry}}</div>
-                    <div class="tempC">{{recipe.tempC}}</div>
+                    <div class="note">{{recipe.note}}</div>
                 </div>
                 <div class="description">
                     {{recipe.description}}

@@ -1,7 +1,16 @@
+#titleHeader{
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
 #card-list{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+}
+.center{
+    padding-top: 60px;
+    text-align: center;
 }

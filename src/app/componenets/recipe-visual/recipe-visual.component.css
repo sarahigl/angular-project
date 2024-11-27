@@ -26,7 +26,7 @@ header{
         justify-content: flex-end;
         gap: 10px;
     }
-    .right #tempP, .right img{
+    .right img{
         vertical-align: middle;
     }
 }
@@ -44,11 +44,6 @@ figure#art{
         width: 100%;
         height: 175px;
         object-fit: cover;
-    }
-    figcaption{
-        text-align: center;
-        font-size: smaller;
-        padding-bottom: 5px;
     }
 }
 
@@ -81,5 +76,6 @@ figure#art{
 }
 
 .description{
+    margin-top: 10px;
     font-size: smaller;
 }
